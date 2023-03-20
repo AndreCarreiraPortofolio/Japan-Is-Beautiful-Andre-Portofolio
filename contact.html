@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Japan is Beautiful</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="stylesheet.css" rel="stylesheet">
+
+    <style>
+
+        @media only screen and (min-height: 700px) {
+            footer{
+                position: fixed;
+                left: 0;
+                bottom: 23px;
+            }
+
+            .copyright-bar{
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <nav>
+
+            <div id="nav-left">
+
+                <img src="images/torii-gate.png" alt="Torii Gate"><a>Japan is Beautiful</a>
+
+            </div>
+
+            <div id="nav-right">
+                
+                <div class="navbuttons" onclick="location.href='index.html'">Home</div>
+                <div class="navbuttons" onclick="location.href='about.html'">About</div>
+                <div class="navbuttons" onclick="location.href='gallery.html'">Gallery</div>
+                <div class="navbuttons-active" onclick="location.href='#'">Contact</div>
+
+            </div>
+
+        </nav>
+
+
+        <main>
+                        
+            <div id="info-box" style="height:10px;"></div>
+
+            <h2>How can we help?</h2>
+            <p>This is not a booking website, if you wish to book a trip check the links in the footer please!</p>
+            <p>Our website, is just a website just to display trip ideas to Japan! So if you know a really cool place drop us an email! Also if you want your picture on our website we can also discuss it through email!</p>
+            <form action="/action_page.php" style="margin-left:10px; margin-right: 10px;">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname">
+                <label for="sname">Surname:</label><br>
+                <input type="text" id="sname" name="sname">
+                <a href="mailto:ec1844918@edinburghcollege.ac.uk">Submit</a>
+            </form> 
+            <p>Please don't send spam! And before emailing make sure your question isn't already answered somewhere on the website!</p>
+            <br>
+
+        </main>
+
+
+        <footer>
+
+            <div class="footer-content">
+                <h3>Websites for booking</h3>
+                <img src="images/websites/trivago-logo.png" alt="Trivago" onclick="location.href='https://www.trivago.co.uk/'">
+                <img src="images/websites/vrbo-logo.png" alt="Trivago" onclick="location.href='https://www.vrbo.com/en-gb/'">
+            </div>
+            <div class="footer-content">
+                <h3>Pages</h3>
+                <p onclick="location.href='index.html'">Home</p>
+                <p onclick="location.href='about.html'">About</p>
+                <p onclick="location.href='gallery.html'">Gallery</p>
+                <p onclick="location.href='#'">Contact</p>
+            </div>
+            <div class="footer-content">
+                <h3>Contact me</h3>
+                <a href="mailto:ec1844918@edinburghcollege.ac.uk">email</a>
+            </div>
+
+        </footer>
+
+        <div class="copyright-bar">© 2020 André Carreira. All Rights Reserved.</div>
+
+    </div>
+
+    <script src="myscript.js"></script>
+
+</body>
+
+</html>
